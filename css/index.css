@@ -1,0 +1,271 @@
+   
+   /* GLOBAL */
+   *{
+     box-sizing: border-box;
+   }
+   .clear{
+     clear: both;
+   }
+   
+   /* HEARDER */
+   html,body{
+       font-family: 'Times New Roman', Times, serif;
+   }
+.header img{
+  width: 250px;
+}
+.header ul{
+      /* xóa dấu chấm tròn chỉnh kiểu phần danh sách  list style none mât
+      circle| disc | square | decimal |lower-alpha*/
+    list-style: none;
+    background-color: black;
+    padding: 15px 0 ;
+    margin: 5px 0 10px;
+
+}
+.header a{
+   
+    text-decoration:none;
+    color: white;
+    font-size: 18px;
+
+  
+}
+ .header ul li{
+     /* display inline dùng để trên 1 hàng */
+     display: inline;
+     margin: 0 10px;
+   
+     /* top bottom, right left: */
+     /* margin: 20px;
+     /* margin-top: 20px; */
+      /* top bottom=10px; right, left=20; */
+   
+    /* top 10 ; 20: bottom  right, leght:15px*/
+
+    /* margin: 10px 15px 20px; */
+   
+    /* top, right bottom, left; */
+    /* margin: 10px 15px 20px 25px; */
+ } 
+   /* CAROUSEL */
+   .carousel{
+       background-image:url("../img/slider_1.jpg");
+       background-repeat: no-repeat;
+       /* height: 550px; */
+        background-size: cover;
+        height: 750px;
+        width: 100%;
+         background-position: center center;
+
+   }
+
+     /* InTRO */
+     .intro__text{
+       font-size: 20px;
+       margin: 25px 0 40px;
+
+     }
+
+     .intro__text span {
+       color: red;
+       font-weight: bold;
+     }
+   
+      /* .intro__left {
+       float: left;
+       width: 50%;
+      }
+      .intro__right {
+        float: left;
+        width: 50%;
+              } */
+ 
+    .intro__left,  .intro__right {
+      float: left;
+        width: 50%;
+    }
+    .intro__smallItem{
+      float: left;
+      width: 50%;
+      
+    }
+    .intro_item{
+      padding: 0 20px 35px;
+    }
+    .intro_item img{
+      width: 100%;
+     display: block;
+    }
+    .intro__item img{
+      width: 100%;
+     display: block;
+    }
+    
+
+
+  /* PRODUCTS 
+  float trên 1 hàng*/
+  .product{
+    margin-bottom: 70px;
+  }
+  .product h2{
+    text-align: center;
+    font-size: 30px;
+  }
+   .products_item{
+     float: left ;
+     width: 25%;
+     /* margin: 0 10px ; */
+     padding: 0 10px;
+   }
+   .products_item img{
+   width: 100%; 
+  }
+  .products_item h3 {
+    font-size: 25px;
+  }
+  .products_item p{
+    font-size: 17px;
+  }
+  .products_item  button{
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    padding: 5px 10px;
+    border-radius:5px  ;
+    /* border-radius:  định nghĩa độ công */
+    margin-top: 15px;
+  }
+   /* banner */
+   .banner{
+    background-image: url("../img/nature.jpg");
+    /* background-repeat: no-repeat; */
+    /* nếu dùng size cover thì ko cần dùng repaet */
+   height: 500px;
+   background-size: cover;
+   position:relative;
+  }
+  .banner_circle{
+    width: 300px;
+    height:  300px;
+    
+    background-color: rgba(131, 41, 39, 0.8);
+    color: white;
+    border-radius: 50%;
+    text-align:center;
+    position:absolute;
+    /* absoilute con */
+    /* position:relative; */
+    /* relative cha */
+    /* top left right bottom */
+    top: 20px;
+    left: 320px;
+    
+    
+    /* border-radius dung để chuyển thành hình tròn */
+    /* opacity:0.8; làm mwof nó và thẻ con trong đó */
+  }
+
+  .banner_circle p{
+  font-size: 20px;  
+  margin: 0 0 10px;
+  }
+  .banner_circle p:first-child{
+    font-size: 30px;
+    margin: 50px 0 0;
+
+  }
+
+  .banner_circle p:nth-child(2){
+    font-size: 80px;
+    margin: 0;
+  }
+  
+  /* SERVICES */
+  .services{
+    margin: 20px 0 10px;
+  }
+  .service_content{
+    width: 70%;
+    /* 100%-70 = 30 */
+    margin: auto;
+    /* margin 15% 
+    margin 15% thụt vào mỗi bên 15 % */
+    text-align: center;
+  }
+  .services__items{
+    float: left;
+    width: 33.33%;
+    padding: 0 15px;
+   
+  }
+  .services__items i{
+    font-size: 40px;
+    /* margin: 10x  0; */
+    
+  }
+  .services__items h2{
+    margin: 10px 0;
+
+  }
+  .services__items p{
+    margin: 0;
+  }
+  
+  
+  
+  
+  /* footer */
+  .footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  .footer h2,.footer p{
+    margin: 0px;
+  }
+  .footer h2{
+    font-size: 30px;
+  }
+
+
+
+
+
+
+
+
+
+/* text css
+color :xét màu cho text 
+text decoration: kiểu gách chân cho text 
+text- align: căn lề cho text
+line-height: xét chiều cao cho các dòng
+word-spacing: khoảng cách giữa các dòng từ trong đoạn văn 
+letter- soacing: khoảng cách giữa các kí tự trong 1 text
+text- indent: thụt đàu dòng */
+/* block là thẻ 100% so với thẻ cha . bản thân nó mỗi thẻ chiếm 1 hàng ko có thẻ nào lên hàng vs nó
+inline  kích thước with đúng abwngf nội dung nó chứa */
+
+/* font css
+ font- size: thiết lập kích cỡ chứ(thiết lập kích thuocs chữ đơn vị cơ bản : px, rem,em)
+ font weight: thiết lạp sự tô đậm của chữ (2 giá trị cơ bản: Normal| bold 
+ font-style:  thiệt lập sự in nghi9eeng của chữ
+ font family: thiết lập kiểu chữ */
+
+ /* background css
+  1. background color : thiết lập màu nền
+  2. background- imgage: thiết lập hình nền
+  3.background-repeat: thiết lập xem hình nền có lập lai hay không
+  3. background- position: thiết lập vị trí hình nền
+   */
+ 
+   /* position : 
+  thuộc tiinsh position dùng để căn chỉnh vị trí gồm cá giá trị sau:
+  Relative: di chuyển các phần tử theo vị trí tương đói hiện tại
+  Absolute: di chuyển phần tử theo phần tử cha chứa nó
+  Fixed: cố định phần tử treent rang web
+  các thuộc tính đi kèm với position để căn chỉnh vị trí cho phần tử:
+  tôp, left , right , bottom
+  z-index */
