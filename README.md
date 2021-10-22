@@ -1,4 +1,4 @@
-[![Math-Util with CI | © 2021 duy đan]
+[![Interior Design with CI | © 2021 duy đan]
 # welcome to Interior Design repository
 
 ### you will find in this repo the follongwing stuff:
