@@ -1,9 +1,8 @@
 [![Math-Util with CI | © 2021 duy đan]
-# welcome to Math-util repository
+# welcome to Interior Design repository
 
 ### you will find in this repo the follongwing stuff:
-* Use html, css to code InteriorDesign web
-* 
+* Use html, css to code InteriorDesign web.
 * .gitignore file and README.md file ro manage the content of this repo
 * ....
 
